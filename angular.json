@@ -64,6 +64,10 @@
             },
             "development": {
               "browserTarget": "student-mgt-portal:build:development"
+            },
+            "options": {
+              "browserTarget": "move-safe:build",
+              "proxyConfig": "src/proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { MenuService } from './menu/menu.service';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'student-mgt-portal';
+  constructor(private menuService: MenuService) {
+  }
 }
